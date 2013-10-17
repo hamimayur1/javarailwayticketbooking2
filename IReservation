@@ -1,0 +1,16 @@
+
+package abc;
+
+/**
+ *
+ * @author mayur hamirani
+ */
+public interface IReservation {
+
+public void addTrain()throws Exception;
+public void viewTrain()throws Exception;
+public void bookTicket()throws Exception;
+public void viewTicket()throws Exception;
+public void editTicket()throws Exception;
+
+}
